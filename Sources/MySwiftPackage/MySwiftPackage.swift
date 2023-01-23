@@ -1,6 +1,6 @@
 public struct MySwiftPackage {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
+    
+    public func HelloToYou() -> String {
+        return "hello to you"
     }
 }
